@@ -9,7 +9,7 @@ Automated deep learning on time series. SoftwareX, Volume 12, 2020. doi: 10.1016
 number_of windows * samples_per_window * number_of_channels**
 **The labels need to be one-hot encoded**
 
-The network needs to initialized as an object. An example can be found at the end of the network definition.
+**The network needs to initialized as an object. An example can be found at the end of the network definition.**
 
 
 Please cite the paper "Digging deeper: towards a better understanding of transfer learning for human activity recognition", when you are using this implementation in your scientific work. 
