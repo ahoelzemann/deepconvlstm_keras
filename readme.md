@@ -1,4 +1,4 @@
-DeepConvLSTM Implementation in Tensorflow based on Ordoñez et al. :
+DeepConvLSTM Implementation in Keras based on Ordoñez et al. :
 Ordóñez, F. J. and Roggen, D. (2016) Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable
 Activity Recognition, Sensors, 16(1). doi: 10.3390/s16010115.
 
