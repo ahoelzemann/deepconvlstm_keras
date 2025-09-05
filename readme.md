@@ -22,5 +22,5 @@ Please cite the paper "Digging deeper: towards a better understanding of transfe
   year={2020}
 }
 
-For further questions please email alexander.hoelzemann@uni-siegen.de
+For further questions please email alexander.hoelzemann@colorado.edu
 
