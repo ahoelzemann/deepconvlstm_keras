@@ -153,7 +153,7 @@ class DeepConvLSTM:
             x = tensorflow.keras.layers.BatchNormalization(name='input/batch_norm',
                                                            input_shape=(self.batch_length, self.n_channels))(inputs)
         x = tensorflow.keras.layers.Reshape(name='reshape_to_3d', target_shape=(self.batch_length, self.n_channels, 1))(
-            inputs)
+            inputs if not self.use_batch_norm else x)
         for cnn_layer in range(0, self.num_cnn_layers):
             x = tensorflow.keras.layers.Convolution2D(name='conv2d_' + str(cnn_layer),
                                                       filters=self.filter_size[cnn_layer], kernel_size=self.kernel_size,
